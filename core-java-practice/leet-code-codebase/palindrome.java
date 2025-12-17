@@ -3,8 +3,9 @@ class palindrome{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
+        System.out.println(isPalindrome(x));
     }
-    public boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {
         int temp = x;
         int rev =0;
         while(x> 0){
