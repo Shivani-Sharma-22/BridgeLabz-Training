@@ -7,16 +7,16 @@ public class HeightCmtoFeet {
         double CmPerInch = 2.54;
         int InchedPerFoot = 12;
 
-         // Converting centimeters to total inches
-         double totalInches = height / CmPerInch;
+        // Converting centimeters to total inches
+        double totalInches = height / CmPerInch;
 
-         // Calculating feet and remaining inches
-         int heightInFeet = (int) (totalInches / InchedPerFoot);
-         double remainingInches = totalInches % InchedPerFoot;
- 
-         // Displaying the result
-         System.out.println("Your height in cm is " + height +
-                 " while in feet is " + heightInFeet +
-                 " and inches is " + remainingInches);
+        // Calculating feet and remaining inches
+        int heightInFeet = (int) (totalInches / InchedPerFoot);
+        double remainingInches = totalInches % InchedPerFoot;
+
+        // Displaying the result
+        System.out.println("Your height in cm is " + height +
+                " while in feet is " + heightInFeet +
+                " and inches is " + remainingInches);
     }
 }
