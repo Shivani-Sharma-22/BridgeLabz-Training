@@ -6,8 +6,5 @@ public class findTheAge {
         int currentyear = 2024;
         int result = currentyear - birthyear;
         System.out.println("sam age in 2024 is "+ result);
-    
-        
-        
     }
 }
