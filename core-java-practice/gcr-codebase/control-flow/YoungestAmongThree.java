@@ -4,7 +4,7 @@ public class YoungestAmongThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //taking input salary,year from user
+        
         System.out.println("Enter age of Amar");
         int ageOfAmar = sc.nextInt();
         System.out.println("Enter age of Akbar");
