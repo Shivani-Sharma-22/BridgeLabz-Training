@@ -35,5 +35,6 @@ public class PositiveNegZero {
                 System.out.println("greater ");
             }
         }
+        sc.close();
     }
 }
