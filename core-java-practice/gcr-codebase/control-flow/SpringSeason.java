@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SpringSeason {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        //taking input month and date from user
 		int date=sc.nextInt();
 		int month=sc.nextInt();
 		
