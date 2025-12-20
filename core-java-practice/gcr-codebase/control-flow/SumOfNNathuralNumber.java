@@ -8,7 +8,7 @@ public class SumOfNNathuralNumber {
         if(number >0){
             sum = number * (number+1) / 2;
         }
-        System.out.println(sum);
+        System.out.println("The sum of Natural number is "+ sum);
 
     }
 }
