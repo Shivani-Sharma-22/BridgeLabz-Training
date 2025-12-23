@@ -1,3 +1,5 @@
+package scenariobased;
+
 import java.util.Scanner;
 
 public class BMICalculate {

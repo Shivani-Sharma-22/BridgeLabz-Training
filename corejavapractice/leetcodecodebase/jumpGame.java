@@ -1,3 +1,4 @@
+package leetcodecodebase;
 import java.util.Scanner;
 
 public class jumpGame {

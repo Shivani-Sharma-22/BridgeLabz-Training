@@ -1,3 +1,5 @@
+package gcrcodebase.programmingelement;
+
 public class AverageOfMarks {
     public static void main(String[] args) {
         int physics_marks = 95;

@@ -1,4 +1,4 @@
-
+package gcrcodebase.programmingelement;
 import java.util.Scanner;
 public class FindDistanceInYard{
     public static void main(String[] args) {

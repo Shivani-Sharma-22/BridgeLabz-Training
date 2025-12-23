@@ -1,3 +1,5 @@
+package gcrcodebase.programmingelement;
+
 public class DividedPens {
     public static void main(String[] args) {
         int pens = 14;

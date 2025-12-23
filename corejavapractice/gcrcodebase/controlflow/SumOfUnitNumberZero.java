@@ -1,3 +1,5 @@
+package gcrcodebase.controlflow;
+
 import java.util.Scanner;
 
 public class SumOfUnitNumberZero {

@@ -1,3 +1,5 @@
+package gcrcodebase.controlflow;
+
 import java.util.*;
 public class MultiplicationOfNumber {
     public static void main(String[] args) {

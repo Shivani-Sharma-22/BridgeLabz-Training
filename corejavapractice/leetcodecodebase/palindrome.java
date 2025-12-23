@@ -1,3 +1,5 @@
+package leetcodecodebase;
+
 import java.util.*;
 class palindrome{
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package gcrcodebase.arrays;
+
 import java.util.Scanner;
 
 public class MultiplicationTable6TO9 {

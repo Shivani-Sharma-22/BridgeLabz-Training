@@ -1,3 +1,5 @@
+package gcrcodebase.programmingelement;
+
 public class DiscountAmount {
     public static void main(String[] args) {
         int fee = 125000;
