@@ -5,3 +5,6 @@
 - **18 December 2025**: Solved level 1 and level 2 assessment of programming-element
 - **19 December 2025**: Solved level 1, 2, and 3 assessment of control-flow
 - **20 December 2025**: Solved level 1, 2, and 3 assessment of control-flow, solved Real-world scenario-based Java problems
+**22 December 2025**: Solved String problems (Level 2 & 3) and revised Java Fundamentals  
+
+**23 December 2025**: Solved 2 scenario-based Java problems
