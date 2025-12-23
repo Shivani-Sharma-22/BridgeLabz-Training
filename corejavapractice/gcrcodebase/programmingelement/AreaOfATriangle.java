@@ -9,5 +9,6 @@ public class AreaOfATriangle {
 
         double areaOfTriangle = (1.0/2.0)*base*height;
         System.out.println("Area of triangle is "+ areaOfTriangle);
+        input.close();
     }
 }

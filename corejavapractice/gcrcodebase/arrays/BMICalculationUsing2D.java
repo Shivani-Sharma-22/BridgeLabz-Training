@@ -1,3 +1,6 @@
+
+package gcrcodebase.arrays;
+
 import java.util.Scanner;
 
 public class BMICalculationUsing2D {

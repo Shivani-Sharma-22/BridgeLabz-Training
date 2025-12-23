@@ -6,6 +6,6 @@ public class AreaOfCircle {
         int radius=sc.nextInt();
         int area=(int) (3.14*radius*radius);
         System.out.print("Area of Circle: "+area);
-    
+        sc.close();
     }
 }

@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class Avg {
+public class AddToNum {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int num1=sc.nextInt();
         int num2=sc.nextInt();
-        int num3=sc.nextInt();
-        System.out.print("Average of 3 numbers: "+(num1+num2+num3)/3);
-    
+        System.out.print("Sum of two no.: "+(num1+num2));
+        sc.close();
     }
+    
 }
