@@ -5,7 +5,7 @@ public class SmartCardBalance {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		//fixed amount 
+		//fixed card amount 
 		 int  balance = 300;
 		
 		while(true) {
@@ -17,7 +17,7 @@ public class SmartCardBalance {
 			//cal fare
 			int fare = (distance > 5)?20:40;
 			
-			//check dsduction
+			//check deduction
 			if(balance < fare) {
 				System.out.println("Insufficient balance. Please recharge. ");
 				break;
