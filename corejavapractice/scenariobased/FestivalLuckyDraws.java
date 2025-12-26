@@ -26,5 +26,7 @@ public class FestivalLuckyDraws {
 				continue;
 			}
 		}
+		System.out.println("Lucky Draw Closed");
+		sc.close();
 	}
 }
