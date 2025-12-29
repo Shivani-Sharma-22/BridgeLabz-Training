@@ -2,7 +2,7 @@ package scenariobased;
 
 import java.util.Random;
 
-public class EmployeeWage {
+public class EmployeeWageExample{
 
     static int wagePerHour = 20;
     static int fullDayHours = 8;
