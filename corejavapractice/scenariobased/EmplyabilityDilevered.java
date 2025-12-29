@@ -59,6 +59,7 @@ public class EmplyabilityDilevered {
         int totalHours = 0;
         int totalDays = 0;
 
+        
         while (totalHours < 100 && totalDays < 20) {
             totalDays++;
 
@@ -77,6 +78,7 @@ public class EmplyabilityDilevered {
         }
 
         int totalWage = totalHours * wagePerHour;
+        
         System.out.println("Wages for the provided condition is " + totalWage);
     }
 }
