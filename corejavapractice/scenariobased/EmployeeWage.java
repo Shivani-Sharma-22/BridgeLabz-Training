@@ -2,14 +2,13 @@ package scenariobased;
 
 import java.util.Random;
 
-public class EmplyabilityDilevered {
+public class EmployeeWage {
 
     static int wagePerHour = 20;
     static int fullDayHours = 8;
     static int partTimeHours = 4;
     static Random random = new Random();
 
-    //main method
     public static void main(String[] args) {
 
         System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
@@ -19,47 +18,50 @@ public class EmplyabilityDilevered {
             partTimeWage();
             monthlyWage();
             wageTillCondition();
-        } else {
-            System.out.println("Employee is Absent");
         }
     }
 
-    // UC1: Check Employee Present or Absent
+    // UC1 + UC4: Attendance using Random + Switch Case
     public static boolean checkAttendance() {
-        int attendance = random.nextInt(2);
-        if (attendance == 1) {
-            System.out.println("Employee is Present");
-            return true;
+
+        int attendance = random.nextInt(2); // 0-Absent, 1-Present
+
+        switch (attendance) {
+            case 1:
+                System.out.println("Employee is Present");
+                return true;
+
+            default:
+                System.out.println("Employee is Absent");
+                return false;
         }
-        return false;
     }
 
-    // UC2: Daily Wage
+    // UC2
     public static void dailyWage() {
         int dailyWage = wagePerHour * fullDayHours;
         System.out.println("Full day Employee Wage is " + dailyWage);
     }
 
-    // UC3: Part Time Wage
+    // UC3
     public static void partTimeWage() {
         int partTimeWage = wagePerHour * partTimeHours;
         System.out.println("Part Time Employee Wage is " + partTimeWage);
     }
 
-    // UC5: Monthly Wage
+    // UC5
     public static void monthlyWage() {
         int workingDaysPerMonth = 20;
         int monthlyWage = wagePerHour * fullDayHours * workingDaysPerMonth;
         System.out.println("The Wage for a month is " + monthlyWage);
     }
 
-    // UC6: Wage till 100 hours OR 20 days
+    // UC6
     public static void wageTillCondition() {
 
         int totalHours = 0;
         int totalDays = 0;
 
-        
         while (totalHours < 100 && totalDays < 20) {
             totalDays++;
 
@@ -70,15 +72,12 @@ public class EmplyabilityDilevered {
                 workHours = fullDayHours;
             } else if (empCheck == 2) {
                 workHours = partTimeHours;
-            } else {
-                workHours = 0;
             }
 
             totalHours += workHours;
         }
 
         int totalWage = totalHours * wagePerHour;
-        
         System.out.println("Wages for the provided condition is " + totalWage);
     }
 }
