@@ -1,4 +1,4 @@
-package constuctor;
+
 
 public class Vehicle {
     String ownerName;

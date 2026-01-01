@@ -1,4 +1,4 @@
-package constuctor;
+
 
 public class BookInfo {
     public String ISBN;

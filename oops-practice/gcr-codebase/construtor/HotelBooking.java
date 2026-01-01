@@ -1,4 +1,4 @@
-package constuctor;
+
 
 public class HotelBooking {
     String guestName;

@@ -1,5 +1,5 @@
 *.class
 /bin/
-*.DS_Store
-*.project
-*.metadata
+.DS_Store
+.project
+.metadata
