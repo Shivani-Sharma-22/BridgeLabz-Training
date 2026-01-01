@@ -1,4 +1,4 @@
-package classandobject;
+// package classandobject;
 
 class Student {
     String name;

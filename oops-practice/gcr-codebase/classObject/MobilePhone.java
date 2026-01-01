@@ -1,4 +1,4 @@
-package classandobject;
+// package classandobject;
 
 class MobilePhone {
     String brand;
