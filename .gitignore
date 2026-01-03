@@ -1,3 +1,5 @@
 # Ignore Java compiled files
 *.class
-
+*.DS_Store
+*.classpath
+*.project
