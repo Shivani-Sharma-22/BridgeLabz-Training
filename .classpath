@@ -3,6 +3,10 @@
 	<classpathentry kind="src" path="oops-practice/gcr-codebase/construtor"/>
 	<classpathentry kind="src" path="oops-practice/gcr-codebase/final-static-this"/>
 	<classpathentry kind="src" path="oops-practice/gcr-codebase/ClassObjectDiagram"/>
+	<classpathentry excluding="Multilevel-inheritence/|Multilevel-inheritence/|Single-inheritence/|Single-inheritence/|Hybird-Inheritence/|Hybird-Inheritence/|Associative-inheritence/|Associative-inheritence/" kind="src" path="oops-practice/gcr-codebase/inheritence"/>
+	<classpathentry kind="src" path="oops-practice/gcr-codebase/Hierarchical-Inheritance"/>
+	<classpathentry kind="src" path="oops-practice/gcr-codebase/inheritence/Hybird-Inheritence"/>
+	<classpathentry kind="src" path="oops-practice/gcr-codebase/inheritence/Associative-inheritence"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
