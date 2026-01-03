@@ -1,1 +1,56 @@
-
+# BridgeLabz-Training
+## 📌 Week 1  Getting Started with JAVA
+   **🗓️ 17-Dec-2025 (Wednesday):** [Check Here]((https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase))
+   
+    Installed and set up Of JAVA & Eclipse. Generated the Project Structure on GitHub.
+	BridgeLabz-Training/
+	+-- core-java-practice/
+	|   +-- gcr-codebase/
+	|   |   +-- programming-elements/
+	|   |   +-- control-flow/
+	|   +-- leet-code-codebase/
+	|   +-- scenario-based/
+	+-- README.md
+   **🗓️ 18-Dec-2025 (Thursday):** [Check here](https://github.com/Abhayrajput-cs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+		
+    Continued with documentation.Solved and submitted basic practice problems on GitHub Using basic commands in Programming Elements in JAVA.
+	  core-java-practice/
+	     +---gcr-codebase/
+	     |   +---programming-elements/
+   **🗓️ 19-Dec-2025 (Friday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/programmingelement)
+   
+    Performed and Pushed All the questions Of Level 1 and Level 2 on GitHub and new Work for Saturday has been assigned for another levels for Control Flow.
+		+--gcr-codebase/
+		|   +--control-flow/
+   **🗓️ 20-Dec-2025 (Saturday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/arrays)
+   
+    Completed and Push all the levels of arrays Questions into the "core-java-practice" BRANCH.Updated the Readme files for the previous days.
+		   +-- gcr-codebase/
+		   |   +-- arrays/
+## 📌 Week 2 More Java Practice Questions
+   **🗓️ 22-Dec-2025 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/strings)
+          
+       Strings Questions of Level 1,Level 2,Level 3 were Assigned today and pushed Level 1 on 22 dec on GitHub.       
+          +-- gcr-codebase/
+		   |   +--strings/
+  **🗓️ 23-Dec-2025 (Tuesday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/practiceproblem/)
+  
+         Continued the strings questions and pushed it on GitHub Of LEVEL 2 and LEVEL 3.
+         Solve the extra practice problems and pushed it on Github.
+ **🗓️ 24-Dec-2025 (Wednesday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/functions/)
+ 
+         Methods Questions for Level 1, Level 2, Level 3 were assigned and completed the level 1 on the same day itself.
+		   +-- gcr-codebase/
+		   |   +--Functions/Methods/
+ **🗓️ 26-Dec-2025 (Friday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/functions/)
+      
+        All levels of Methods Questions Completed and pushed to the GitHub today.
+        Extras Given on 25th december of Strings Completed Today and pushed to github.
+## 📌 Week 3  Scenario Based Started/OOPS Started 
+**🗓️ 29-Dec-2025 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/scenariobased/)
+		 
+		 Completed The Wages problem of Scenario BAsed on the same day itself and pushed to gitHub.
+**🗓️ 30-Dec-2025 (Tuesday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/scenariobased)
+	    
+	          +-- core-java-practice/
+             |          +-- scenario-based/
