@@ -14,6 +14,7 @@ The repository is organized to make navigation simple and to clearly reflect **w
 |------------|-------------|------|
 | `main` | Entry point & documentation | (https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/Main) |
 | `core-java-practice` | Complete Core Java practice codebase | (https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice) |
+| `oops-practice`|Complete oops concepts codebase|(https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice) |
 
 ---
 
@@ -43,7 +44,31 @@ The **GCR Codebase** focuses on strengthening Java fundamentals before moving to
 | `Practice-Problem` | Apply logic & practice | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/core-java-practice/corejavapractice/gcrcodebase/practiceproblem |
 
 ---
+## 📂 Oops Practice – Folder Overview
 
+Inside the **oops-practice** branch, the code is divided into three focused sections:
+
+| Folder Name | Purpose | Link |
+|------------|--------|------|
+| `gcr-codebase` | Fundamental Oops concepts & structured exercises | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase |
+| `scenario-based` | Real-world, logic-driven Oops problems |  |
+| `leetcode-based-problems` | Interview-style and DSA logic problems |  |
+
+---
+## 📘 GCR Codebase – Detailed Structure
+
+The **GCR Codebase** focuses on strengthening Java fundamentals before moving to complex scenarios.
+
+| Folder Name | Topics Covered | Link |
+|------------|---------------|------|
+| `Class-Object` | What classes and objects are, defining fields & methods, object creation (new), instance vs local variables, basic encapsulation, reference variables | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/classObject |
+| `Constructor` | Default & parameterized constructors, constructor overloading, object initialization, this() & super() constructor calls, initialization order | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/construtor |
+| `Final-This-Static` | final variables/methods/classes, constants, static fields/methods/blocks, class utilities, using this to access fields/constructors | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/final-static-this|
+| `Class-Object-Diagram` | Basic UML class diagrams, attributes & methods notation, relationships (association/aggregation), object diagrams, mapping diagrams to code) | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/ClassObjectDiagram|
+| `Inheritence` | Reuse with extends, single & multilevel inheritance, method overriding, super keyword, IS-A relationship, basic runtime polymorphism |(https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritence) |
+
+
+---
 ## 🧠 Why This Repository Exists
 
 This is **not** a showcase repo.  
