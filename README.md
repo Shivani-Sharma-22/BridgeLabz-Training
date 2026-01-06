@@ -25,5 +25,25 @@ The repository is organized to make navigation simple and to clearly reflect **w
       
         Created the Inheritance folder and performend all the inheritance questions provided today and pushed to GitHub.
         
+**🗓️ 05-Jan-2026 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/OopsPilar)
+      
+        - Practiced **OOPS Pillars**:
+        - Encapsulation
+        - Abstraction
+        - Polymorphism
+        - Solved **scenario-based OOPS problems**
+        - Practiced **LeetCode OOPS-related questions**
 
+---
 
+**🗓️ 05-Jan-2026 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-practice)
+
+      - Continued **OOPS pillar-based practice**
+      - Solved additional **scenario-based Java problems**
+      - Practiced **LeetCode basic questions** for logic building
+      - Executed programs using **Eclipse IDE** with proper `main` methods
+      
+
+---
+
+✅ This repository represents consistent daily progress in **Core Java and OOPS fundamentals** as part of **BridgeLabz Training**.
