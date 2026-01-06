@@ -1,5 +1,11 @@
-*.class
-/bin/
+# OS files
 .DS_Store
+
+# Eclipse / IDE files
+.classpath
 .project
-.metadata
+.settings/
+
+# Build output
+bin/
+*.class
