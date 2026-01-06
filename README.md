@@ -36,7 +36,7 @@ The repository is organized to make navigation simple and to clearly reflect **w
 
 ---
 
-**🗓️ 05-Jan-2026 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-practice)
+**🗓️ 06-Jan-2026 (Monday):** [Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-practice)
 
       - Continued **OOPS pillar-based practice**
       - Solved additional **scenario-based Java problems**
