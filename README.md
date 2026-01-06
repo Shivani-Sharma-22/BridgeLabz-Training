@@ -51,8 +51,8 @@ Inside the **oops-practice** branch, the code is divided into three focused sect
 | Folder Name | Purpose | Link |
 |------------|--------|------|
 | `gcr-codebase` | Fundamental Oops concepts & structured exercises | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase |
-| `scenario-based` | Real-world, logic-driven Oops problems |  |
-| `leetcode-based-problems` | Interview-style and DSA logic problems |  |
+| `scenario-based` | Real-world, logic-driven Oops problems | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/scenariobased |
+| `leetcode-based-problems` | Interview-style and DSA logic problems | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-practice |
 
 ---
 ## 📘 GCR Codebase – Detailed Structure
@@ -66,7 +66,7 @@ The **GCR Codebase** focuses on strengthening Java fundamentals before moving to
 | `Final-This-Static` | final variables/methods/classes, constants, static fields/methods/blocks, class utilities, using this to access fields/constructors | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/final-static-this|
 | `Class-Object-Diagram` | Basic UML class diagrams, attributes & methods notation, relationships (association/aggregation), object diagrams, mapping diagrams to code) | https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/ClassObjectDiagram|
 | `Inheritence` | Reuse with extends, single & multilevel inheritance, method overriding, super keyword, IS-A relationship, basic runtime polymorphism |(https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritence) |
-
+| `Oops-Pilar` | Solve and learn Oops concepts |(https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/OopsPilar) |
 
 ---
 ## 🧠 Why This Repository Exists
