@@ -66,5 +66,9 @@
 **🗓️ 13-Jan-2026 (Tuesday):**[Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/scenariobased)More OOPs questions Completed with proper format and proper Package Declaration in the respective folder and named teh main file withh App name.EcommerceOrderManagementSystem,HotelReservationSystem,InventoryManagementSystem.
 
 
+**🗓️ 14-Jan-2026 (Wednesday):**[Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Stack-Queues-Hash) Performed all questions on Stack,Queue and HashMap Question and pushed to the dsa branch.
+
+**🗓️ 15-Jan-2026 (Thrusday):**[Click Here]() Getting start with DSA Sorting concepts and learning the new concepts and project structure of SpringBoot. All Sorting algorithm completed Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort,Counting Sort.
+    
    
     
