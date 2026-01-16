@@ -1,3 +1,4 @@
+package linkedList;
 class JobNode {
     int id;
     String title;

@@ -1,4 +1,6 @@
 // Friend Linked List Node
+package linkedList;
+
 class FriendNode {
     int friendId;
     FriendNode next;
