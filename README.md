@@ -69,6 +69,14 @@
 **🗓️ 14-Jan-2026 (Wednesday):**[Check here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Stack-Queues-Hash) Performed all questions on Stack,Queue and HashMap Question and pushed to the dsa branch.
 
 **🗓️ 15-Jan-2026 (Thrusday):**[Click Here]() Getting start with DSA Sorting concepts and learning the new concepts and project structure of SpringBoot. All Sorting algorithm completed Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort,Counting Sort.
-    
+ 
+**🗓️ 16-Jan-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Sorting) Completed with Sortings Questions With Hand On Practice BookPriceMergeSort, CountingSortStudentAges, EmployeeIdInsertion.
+
+**🗓️ 17-Jan-2026 (Saturday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Linear-Binarysearch) Searching Questions with Real Life Based Scenarios Completed today And Pushed to github.
+
+## 📌 Week 6 Continued with OOPs Practice Questions and DSA .  
+**🗓️ 19-Jan-2026 (Monday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/addressBookProblem/addressBook) AddressBook Problem UC1 And UC2 completed and pushed to gitHub
+
+**🗓️ 20-Jan-2026 (Tuesday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based) ScenarioBased Completed and pushed to gitHub with some common Questions of leetcode. CinemaTime – Movie Schedule Manager, Banking Account Hierarchy,  Employee Role Polymorphism etc.  
    
     
