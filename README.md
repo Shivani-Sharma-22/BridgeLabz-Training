@@ -78,5 +78,9 @@
 **🗓️ 19-Jan-2026 (Monday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/addressBookProblem/addressBook) AddressBook Problem UC1 And UC2 completed and pushed to gitHub
 
 **🗓️ 20-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based) ScenarioBased Completed and pushed to gitHub with some common Questions of leetcode. CinemaTime – Movie Schedule Manager, Banking Account Hierarchy,  Employee Role Polymorphism etc.  
-   
+  
+  
+**🗓️ 21-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Solved Collections Framework problems covering Set, Queue, Stack, and Map concepts. 
+
+ **🗓️ 21-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Completed all assigned problems, pushed the code to GitHub, and attended the **CG Meet**. 
     
