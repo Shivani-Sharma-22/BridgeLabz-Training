@@ -82,5 +82,5 @@
   
 **🗓️ 21-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Solved Collections Framework problems covering Set, Queue, Stack, and Map concepts. 
 
- **🗓️ 21-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Completed all assigned problems, pushed the code to GitHub, and attended the **CG Meet**. 
+ **🗓️ 22-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Completed all assigned problems, pushed the code to GitHub, and attended the **CG Meet**. 
     
