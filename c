@@ -1,0 +1,1 @@
+Hello, this is sample text in source file.
