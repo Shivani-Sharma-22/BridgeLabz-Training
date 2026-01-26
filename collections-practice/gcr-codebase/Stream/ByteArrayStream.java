@@ -3,8 +3,8 @@ import java.util.Arrays;
 
 public class ByteArrayStream{
     public static void main(String[] args) {
-    	String sourceFile ="/BridgeLabz-Training/collections-practice/gcr-codebase/streams/source.txt";
-        String destinationFile ="/BridgeLabz-Training/collections-practice/gcr-codebase/streams/destination.txt";
+    	String sourceFile ="source.txt";
+        String destinationFile ="destination.txt";
        
         try {
             //reading image into byte array using ByteArrayOutputStream

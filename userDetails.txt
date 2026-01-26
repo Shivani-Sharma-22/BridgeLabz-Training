@@ -1,3 +1,0 @@
-Name: Shivani
-Age: 23
-Favorite Programming Language: java

@@ -4,9 +4,9 @@ public class BufferedStream {
 
     public static void main(String[] args) {
 
-        String sourceFile = "Stream/sourceFile.txt";
-        String normalDest = "Stream/normalCopy.txt";
-        String bufferedDest = "Stream/bufferedCopy.txt";
+        String sourceFile = "sourceFile.txt";
+        String normalDest = "normalCopy.txt";
+        String bufferedDest = "bufferedCopy.txt";
 
         int bufferSize = 4096; // 4 KB
 
