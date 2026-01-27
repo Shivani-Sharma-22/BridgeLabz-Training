@@ -80,7 +80,12 @@
 **🗓️ 20-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based) ScenarioBased Completed and pushed to gitHub with some common Questions of leetcode. CinemaTime – Movie Schedule Manager, Banking Account Hierarchy,  Employee Role Polymorphism etc.  
   
   
-**🗓️ 21-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Solved Collections Framework problems covering Set, Queue, Stack, and Map concepts. 
+**🗓️ 21-Jan-2026 (Wednesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Solved Collections Framework problems covering Set, Queue, Stack, and Map concepts. 
 
- **🗓️ 22-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Completed all assigned problems, pushed the code to GitHub, and attended the **CG Meet**. 
+ **🗓️ 22-Jan-2026 (Thrusday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Collections) Completed all assigned problems, pushed the code to GitHub, and attended the **CG Meet**. 
+ 
+  **🗓️ 23-Jan-2026 (Friday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Stream) Solved the given **stream file handling assignments** and practiced reading, writing, and processing data using Java streams.
+  
+  **🗓️ 27-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/EceptionHandling) Solved the given **Exception Handling assignments**, covering custom exceptions, try-catch-finally, nested try-catch block and best practices.
+  
     
