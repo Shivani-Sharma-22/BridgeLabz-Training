@@ -88,4 +88,5 @@
   
   **🗓️ 27-Jan-2026 (Tuesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/EceptionHandling) Solved the given **Exception Handling assignments**, covering custom exceptions, try-catch-finally, nested try-catch block and best practices.
   
-    
+   **🗓️ 28-Jan-2026 (Wednesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)  - Solved **scenario-based Java problems**.  
+- Revised and reviewed **OOPS concepts** as part of daily progress.
