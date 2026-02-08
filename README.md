@@ -106,7 +106,7 @@
  **🗓️ 5-feb-2026 (Thrusday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/java-8-feature-practics/java-8-feature-practics/gcr-codebase/Functinal-interface) Completed the Functional Interface Questions, 
  pushed the code to GitHub, and attended the **CG Meet**.
  
-  **🗓️ 6-feb-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/StreamBuzz) Solved the scenario based problem (Stream Buzz) and pushed code to Github.
+  **🗓️ 6-feb-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/StreamBuzz) Solved the scenario based problem (Stream Buzz) and pushed code to Github and attend power skills classes.
   
   **🗓️ 7-feb-2026 (Saturday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/OceanFleet) Solved the scenario based problem (OceanFleet) Apply all the oops,dsa,collections concept and pushed code to Github.
   
