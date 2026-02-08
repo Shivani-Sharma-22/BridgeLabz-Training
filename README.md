@@ -90,3 +90,23 @@
   
    **🗓️ 28-Jan-2026 (Wednesday):**[Click Here](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)  - Solved **scenario-based Java problems**.  
 - Revised and reviewed **OOPS concepts** as part of daily progress.
+
+**🗓️ 29-Jan-2026 (Thrusday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Regex/javaregex) Started with JUnit Testing and RegularExpressions. Converting the Project to maven and adding dependencies to it to be in Runnable Form.
+
+**🗓️ 30-Jan-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/junit-demo) Pushed the JUnit Folder and testing Files to GItHUb and Tested In JUNIT Library Environment.
+
+
+## 📌 Week 8 Interfaces,JAVA8 Features,IO programming.
+ **🗓️ 2-feb-2026 (Monday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-csv-handling) CSV file Handling Questions Completed and Pushed to GitHub CSVtoObjects.java,CreateCSV.java, ValidateUsers.java, ReasCSVprintCSV.java.
+ 
+ **🗓️ 3-feb-2026 (Tuesday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/json-program) Completed the Json Files Questions Using and Converting the project to Maven Nature And providing them to env to execute.
+ 
+ **🗓️ 4-feb-2026 (Wednesday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/AeroVigil)Completed the AeroVigil Scenario based Question in DSA-practice.  Completed with lambda Expression and Interfaces like Marker interface and Functinal interface and pushed the code[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/java-8-feature-practics/java-8-feature-practics/gcr-codebase/Functinal-interface)
+ 
+ **🗓️ 5-feb-2026 (Thrusday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/java-8-feature-practics/java-8-feature-practics/gcr-codebase/Functinal-interface) Completed the Functional Interface Questions, 
+ pushed the code to GitHub, and attended the **CG Meet**.
+ 
+  **🗓️ 6-feb-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/StreamBuzz) Solved the scenario based problem (Stream Buzz) and pushed code to Github.
+  
+  **🗓️ 7-feb-2026 (Saturday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/OceanFleet) Solved the scenario based problem (OceanFleet) Apply all the oops,dsa,collections concept and pushed code to Github.
+  
