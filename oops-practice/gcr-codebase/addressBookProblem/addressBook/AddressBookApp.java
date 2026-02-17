@@ -152,6 +152,16 @@ public class AddressBookApp {
                 case 12:
                     System.out.println("Exiting... Bye!");
                     System.exit(0);
+                case 13:
+                    System.out.print("Enter book name: ");
+                    bookName = sc.nextLine();
+                    service.writeToFile(bookName, "contacts.txt");
+                    break;
+                case 14:
+                    System.out.print("Enter book name: ");
+                    bookName = sc.nextLine();
+                    service.readFromFile(bookName, "contacts.txt");
+                    break;
 
                 default:
                     System.out.println("Invalid choice! Try again.");

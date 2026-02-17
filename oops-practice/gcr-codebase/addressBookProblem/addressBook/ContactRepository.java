@@ -15,14 +15,13 @@ public class ContactRepository {
         return contacts;
     }
 	
-	public Contact findByFirstName(String firstName) {
-		for(Contact c: contacts) {
-			if(c.getFirstName().equalsIgnoreCase(firstName)) {
-				return c;
-			}
-		}
-		return null;
+	public Optional<Contact> findByFirstName(String firstName) {
+	    return contacts.stream()
+	            .filter(c -> c.getFirstName().equalsIgnoreCase(firstName))
+	            .findFirst();
 	}
+
+
 	
 	//delete
 	public void deleteContact(Contact contact) {

@@ -1,5 +1,6 @@
 package addressBook;
 import java.util.*;
+import java.io.*;
 public class AddressBookService {
 	
 //	private ContactRepository repository = new ContactRepository();
@@ -44,152 +45,241 @@ public class AddressBookService {
 	
 	//display contacts
 	public void displayContacts(String bookName) {
-		ContactRepository book = repository.getAddressBook(bookName);
-        if (book != null) {
-            for (Contact c : book.getAllContacts()) {
-                System.out.println(c.getFirstName() + " " + c.getLastName()+ " | " + c.getCity()+ " | " + c.getPhoneNumber()+ " | " + c.getMail());
-            }
-        }
-    }
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    Optional.ofNullable(book)
+	            .ifPresent(b -> b.getAllContacts()
+	                    .forEach(c -> System.out.println(
+	                            c.getFirstName() + " " + c.getLastName()
+	                                    + " | " + c.getCity()
+	                                    + " | " + c.getPhoneNumber()
+	                                    + " | " + c.getMail()
+	                    )));
+	}
+
 	
 	//edit Contact Number
 	public void editPhoneNumber(String bookName, String name, long newNumber) {
-        ContactRepository book = repository.getAddressBook(bookName);
-        if (book != null) {
-            Contact c = book.findByFirstName(name);
-            if (c != null) {
-                c.setPhoneNumber(newNumber);
-            }
-        }
-    }
+	    Optional.ofNullable(repository.getAddressBook(bookName))
+	            .flatMap(b -> b.findByFirstName(name))
+	            .ifPresent(c -> c.setPhoneNumber(newNumber));
+	}
+
 	
 	//edit Contact City
 	public void editCity(String bookName, String name, String newCity) {
-        ContactRepository book = repository.getAddressBook(bookName);
-        if (book != null) {
-            Contact c = book.findByFirstName(name);
-            if (c != null) {
-                c.setCity(newCity);
-            }
-        }
-    }
+	    Optional.ofNullable(repository.getAddressBook(bookName))
+	            .flatMap(b -> b.findByFirstName(name))
+	            .ifPresent(c -> c.setCity(newCity));
+	}
+
 	
 	//edit Contact Mail
 	public void editMail(String bookName, String name, String newMail) {
-        ContactRepository book = repository.getAddressBook(bookName);
-        if (book != null) {
-            Contact c = book.findByFirstName(name);
-            if (c != null) {
-                c.setMail(newMail);
-            }
-        }
-    }
+	    Optional.ofNullable(repository.getAddressBook(bookName))
+	            .flatMap(b -> b.findByFirstName(name))
+	            .ifPresent(c -> c.setMail(newMail));
+	}
+
 	
 	//deleteContact
 	public void deleteContact(String bookName, String name) {
-        ContactRepository book = repository.getAddressBook(bookName);
-        if (book != null) {
-            Contact c = book.findByFirstName(name);
-            if (c != null) {
-                book.deleteContact(c);
-                System.out.println("Contact deleted.");
-            }
-        }
-    }
+	    Optional.ofNullable(repository.getAddressBook(bookName))
+	            .flatMap(b -> b.findByFirstName(name))
+	            .ifPresent(c -> {
+	                repository.getAddressBook(bookName).deleteContact(c);
+	                System.out.println("Contact deleted.");
+	            });
+	}
+
 	
 	// Search person by City across all Address Books
 	public void searchByCity(String city) {
-	    boolean found = false;
 
-	    for (String bookName : repository.books.keySet()) {
-	        ContactRepository book = repository.books.get(bookName);
+	    boolean found = repository.getAllAddressBook().entrySet()
+	            .stream()
+	            .flatMap(entry ->
+	                    entry.getValue().getAllContacts().stream()
+	                            .filter(c -> c.getCity().equalsIgnoreCase(city))
+	                            .map(c -> entry.getKey() + " -> " + c))
+	            .peek(System.out::println)
+	            .findAny()
+	            .isPresent();
 
-	        for (Contact c : book.getAllContacts()) {
-	            if (c.getCity().equalsIgnoreCase(city)) {
-	                System.out.println(
-	                        c.getFirstName() + " " + c.getLastName() +
-	                        " | City: " + c.getCity() +
-	                        " | Book: " + bookName
-	                );
-	                found = true;
-	            }
-	        }
-	    }
-
-	    if (!found) {
+	    if (!found)
 	        System.out.println("No person found in city: " + city);
-	    }
 	}
+
 	
 	// Search person by State across all Address Books
 	public void searchByState(String state) {
-	    boolean found = false;
 
-	    for (String bookName : repository.books.keySet()) {
-	        ContactRepository book = repository.books.get(bookName);
+	    boolean found = repository.getAllAddressBook().entrySet()
+	            .stream()
+	            .flatMap(entry ->
+	                    entry.getValue().getAllContacts().stream()
+	                            .filter(c -> c.getState().equalsIgnoreCase(state))
+	                            .map(c -> entry.getKey() + " -> " + c))
+	            .peek(System.out::println)
+	            .findAny()
+	            .isPresent();
 
-	        for (Contact c : book.getAllContacts()) {
-	            if (c.getState().equalsIgnoreCase(state)) {
-	                System.out.println(
-	                        c.getFirstName() + " " + c.getLastName() +
-	                        " | State: " + c.getState() +
-	                        " | Book: " + bookName
-	                );
-	                found = true;
-	            }
-	        }
-	    }
-
-	    if (!found) {
+	    if (!found)
 	        System.out.println("No person found in state: " + state);
-	    }
 	}
+
+	//view person by city
 	
 	public void viewPersonsByCity(String city) {
-	    List<Contact> persons = cityMap.get(city);
 
-	    if (persons == null || persons.isEmpty()) {
-	        System.out.println("No persons found in city: " + city);
-	        return;
-	    }
-
-	    for (Contact c : persons) {
-	        System.out.println(
-	            c.getFirstName() + " " + c.getLastName() +
-	            " | " + c.getCity() +
-	            " | " + c.getPhoneNumber()
-	        );
-	    }
+	    cityMap.getOrDefault(city, Collections.emptyList())
+	            .forEach(c -> System.out.println(
+	                    c.getFirstName() + " " + c.getLastName()
+	                            + " | " + c.getPhoneNumber()
+	            ));
 	}
-	
+
+	// view person by state 
 	public void viewPersonsByState(String state) {
-	    List<Contact> persons = stateMap.get(state);
-
-	    if (persons == null || persons.isEmpty()) {
-	        System.out.println("No persons found in state: " + state);
-	        return;
-	    }
-
-	    for (Contact c : persons) {
-	        System.out.println(
-	            c.getFirstName() + " " + c.getLastName() +
-	            " | " + c.getState() +
-	            " | " + c.getPhoneNumber()
-	        );
-	    }
+		stateMap.getOrDefault(state, Collections.emptyList())
+		.forEach(c->System.out.println(
+				c.getFirstName()+" "+ c.getLastName()+ " | "+c.getPhoneNumber()));
 	}
 	
 	// Count by City
 	public void countByCity(String city) {
-	    List<Contact> persons = cityMap.get(city);
-	    int count = (persons == null) ? 0 : persons.size();
+
+	    long count = cityMap.getOrDefault(city, Collections.emptyList())
+	            .stream()
+	            .count();
+
 	    System.out.println("Number of persons in city '" + city + "': " + count);
 	}
 
+
 	// Count by State
 	public void countByState(String state) {
-	    List<Contact> persons = stateMap.get(state);
-	    int count = (persons == null) ? 0 : persons.size();
-	    System.out.println("Number of persons in state '" + state + "': " + count);
+	    long count = stateMap.getOrDefault(state, Collections.emptyList())
+	    		.stream().count();
+	    System.out.println("Number of persons in state "+ state+": "+ count);
 	}
+	
+	//sort sort the entries in the address book alphabetically by Person’s name
+	public void sortByPersonName(String name) {
+
+	    ContactRepository book = repository.getAddressBook(name);
+
+	    if (book == null) {
+	        System.out.println("Address book not found!");
+	        return;
+	    }
+
+	    book.getAllContacts()
+	            .stream()
+	            .sorted(Comparator.comparing(Contact::getFirstName))
+	            .forEach(System.out::println);
+	}
+	// sort by city state or zip
+	public void sortContacts(String bookName, String type) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+	    if (book == null) return;
+
+	    Comparator<Contact> comparator;
+
+	    switch (type.toLowerCase()) {
+
+	        case "city":
+	            comparator = Comparator.comparing(Contact::getCity);
+	            break;
+
+	        case "state":
+	            comparator = Comparator.comparing(Contact::getState);
+	            break;
+
+	        case "zip":
+	            comparator = Comparator.comparingInt(Contact::getZip);
+	            break;
+
+	        default:
+	            System.out.println("Invalid sort type");
+	            return;
+	    }
+
+	    book.getAllContacts()
+	            .stream()
+	            .sorted(comparator)
+	            .forEach(System.out::println);
+	}
+
+    //write to file
+	public void writeToFile(String bookName, String filePath) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+
+	    if (book == null) {
+	        System.out.println("Address book not found!");
+	        return;
+	    }
+
+	    try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+
+	        for (Contact c : book.getAllContacts()) {
+
+	            writer.write(
+	                    c.getFirstName() + "," +
+	                    c.getLastName() + "," +
+	                    c.getAddress() + "," +
+	                    c.getCity() + "," +
+	                    c.getState() + "," +
+	                    c.getZip() + "," +
+	                    c.getPhoneNumber() + "," +
+	                    c.getMail()
+	            );
+
+	            writer.newLine();
+	        }
+
+	        System.out.println("Contacts saved successfully!");
+
+	    } catch (IOException e) {
+	        System.out.println("Error writing file!");
+	    }
+	}
+    // read from file
+	public void readFromFile(String bookName, String filePath) {
+
+	    ContactRepository book = repository.getAddressBook(bookName);
+	    if (book == null) return;
+
+	    try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+
+	        String line;
+
+	        while ((line = reader.readLine()) != null) {
+
+	            String[] data = line.split(",");
+
+	            Contact c = new Contact(
+	                    data[0],
+	                    data[1],
+	                    data[2],
+	                    data[3],
+	                    data[4],
+	                    Integer.parseInt(data[5]),
+	                    Long.parseLong(data[6]),
+	                    data[7]
+	            );
+
+	            book.addContact(c);
+	        }
+
+	        System.out.println("Loaded successfully!");
+
+	    } catch (Exception e) {
+	        System.out.println("Error reading file!");
+	    }
+	}
+
+
 }
