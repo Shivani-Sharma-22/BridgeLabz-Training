@@ -2,18 +2,10 @@ package RestaurantTableReservationSystem;
 
 class Table {
     int tableNo;
-    private boolean isReserved;
+    boolean isReserved;
 
     public Table(int tableNo) {
         this.tableNo = tableNo;
-        this.setReserved(false);
+        this.isReserved = false;
     }
-
-	public boolean isReserved() {
-		return isReserved;
-	}
-
-	public void setReserved(boolean isReserved) {
-		this.isReserved = isReserved;
-	}
 }
