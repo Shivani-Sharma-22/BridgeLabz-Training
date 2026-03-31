@@ -110,29 +110,4 @@
   
   **🗓️ 7-feb-2026 (Saturday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/OceanFleet) Solved the scenario based problem (OceanFleet) Apply all the oops,dsa,collections concept and pushed code to Github.
   
-## 📌 Week 9 MultiThreading,Designing Pattern Features,JDBC.
-  
-**🗓️ 9-feb-2026 (Monday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/FoodDeliveryOrderSystem) Solved the scenario based problem (Food Delivery Order System) Apply all the oops,dsa,collections, Stream concept and pushed code to Github.
-
-**🗓️ 10-feb-2026 (Tuesday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/solution-designing-practice/solution-designing-practice/gcr-codebase/design-patterns)Solved and pushed design patterns problems + M1 Mock Examination Written;
- 
-**🗓️ 11-feb-2026 (Wednesday):**Learn about SonarQube and setup.
-
-**🗓️ 12-feb-2026 (Thrusday):**Solved Hotel reservation validation practice problem; Solved console-based few use.
-
-**🗓️ 13-feb-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/jdbc-dbms-practice/jdbc-dbms-practice/gcr-codebase)
-Created tech JDBC-DBMS-practice branch and performed the question of Gcr-codebase in it.
-
-**🗓️ 14-feb-2026 (Saturday):**Test Class With new Questions Performed
-## 📌 Week 10 JDBC & DBMS more:
-
-**🗓️ 16-feb-2026 (Monday):**Solved use cases of health clinic problem and submitted assignment of JDBC and DBMS Click Here; Study about SQL;
-
-**🗓️ 17-feb-2026 (Tuesday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/addressBookProblem/addressBook)Solved and submitted assignment of address book  problem updation also to old one.
-
-**🗓️ 18-feb-2026 (Wednesday):**[Check](https://github.com/Shivani-Sharma-22/QuantityMeasurementApp)M1 mock test attended; Quantity management app project setup;
-
-**🗓️ 19-feb-2026 (Friday):**[Check](https://github.com/Shivani-Sharma-22/QuantityMeasurementApp/tree/feature/UC1-FeetEquality)Working More UC1 on Quantity MEasument App.
-
-
-  
+   **🗓️ 9-feb-2026 (Saturday):**[Check](https://github.com/Shivani-Sharma-22/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/OceanFleet) Solved the scenario based problem (OceanFleet) Apply all the oops,dsa,collections concept and pushed code to Github.
