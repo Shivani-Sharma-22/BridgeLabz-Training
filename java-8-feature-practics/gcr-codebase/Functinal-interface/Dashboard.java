@@ -1,0 +1,37 @@
+interface Vehicle {
+
+    void displaySpeed();
+
+    default void displayBatteryStatus() {
+        System.out.println("Battery status not available");
+    }
+}
+
+class Car implements Vehicle {
+    public void displaySpeed() {
+        System.out.println("Car speed: 80 km/h");
+    }
+}
+
+class ElectricCar implements Vehicle {
+    public void displaySpeed() {
+        System.out.println("Electric Car speed: 60 km/h");
+    }
+
+    public void displayBatteryStatus() {
+        System.out.println("Battery: 75%");
+    }
+}
+
+public class Dashboard {
+    public static void main(String[] args) {
+        Vehicle v1 = new Car();
+        Vehicle v2 = new ElectricCar();
+
+        v1.displaySpeed();
+        v1.displayBatteryStatus();
+
+        v2.displaySpeed();
+        v2.displayBatteryStatus();
+    }
+}
